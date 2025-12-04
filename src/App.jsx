@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { apiGet } from "./api/api";
 
 <Link to="/tables">Tables</Link>
+import Tables from "./pages/Tables.jsx";
+<Route path="/tables" element={<Tables />} />
+
 
 export default function App() {
   const [status, setStatus] = useState("Loading...");
