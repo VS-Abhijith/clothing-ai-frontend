@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { apiGet } from "./api/api";
 
+<Link to="/tables">Tables</Link>
+
 export default function App() {
   const [status, setStatus] = useState("Loading...");
 
