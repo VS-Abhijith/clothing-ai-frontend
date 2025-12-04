@@ -1,12 +1,7 @@
-import Sidebar from "./components/Sidebar";
-import Topbar from "./components/Topbar";
-
-export default function App({ children }) {
+export default function App() {
   return (
-    <div>
-      <Sidebar />
-      <Topbar />
-      <div className="ml-60 mt-20 p-6">{children}</div>
+    <div className="p-6 text-2xl">
+      Clothing AI Frontend Ready 🎉
     </div>
   );
 }
